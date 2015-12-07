@@ -18,3 +18,6 @@ QUILTTT lets users drag and drop quilt pattern pieces into original quilt design
 7. Users can select the color of a solid quilt piece from a set palette or maybe a color-picker API
 8. Users can upload their own images to be the "fabric" for the quilt pieces
 9. WAY WAY STRETCH track each quilt piece used and calculate yardage for each fabric for quilters who want to design something and then actually sew it IRL
+
+### where things are now
+I've included the start of QUILTTT so you can get a general idea of where things are starting. It is a very very baseline version of what I hope it will be.

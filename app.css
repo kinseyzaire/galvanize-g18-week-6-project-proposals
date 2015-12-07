@@ -1,0 +1,43 @@
+body {
+   background-color: "#f8f1ef";
+   color: "#302f36";
+}
+
+header {
+   text-align: right;
+   margin-right: 45px;
+}
+nav {
+   font-family: 'Quicksand', sans-serif;
+   margin-top: -25px;
+   font-size: .45em;
+}
+
+ol {
+   list-style: none;
+   display: inline-block;
+   padding-right: 5px;
+}
+
+ol > ol {
+   font-weight: 300;
+}
+
+#logo {
+   font-family: 'Poiret One', sans-serif;
+   letter-spacing: 1.5px;
+   font-size: 2em;
+   opacity: 0.0;
+}
+.piece {
+   width: 55px;
+}
+.rotated {
+   transform: rotate(30deg);
+}
+.rotated2 {
+   transform: rotate(90deg);
+}
+.rotated3 {
+   transform: rotate(150deg);
+}
