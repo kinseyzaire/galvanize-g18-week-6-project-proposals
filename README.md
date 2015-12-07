@@ -4,9 +4,9 @@
 QUILTTT lets users drag and drop quilt pattern pieces into original quilt designs
 
 ### technologies
-CSS - work with CSS shapes masking to change the shape on the fly with a button and allow any image to be used as pattern pieces
-jQuery - draggable()
-APIs - screen grab API to let users save their creations; flickr API to allow users to pull in images for the quilt??
+1. CSS - work with CSS shapes masking to change the shape on the fly with a button and allow any image to be used as pattern pieces
+2. jQuery - draggable()
+3. APIs - screen grab API to let users save their creations; flickr API to allow users to pull in images for the quilt??
 
 ### planned stages
 1. Page loads with enough quilt pieces to make a new design
