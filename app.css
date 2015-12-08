@@ -4,40 +4,70 @@ body {
 }
 
 header {
-   text-align: right;
+   float: right;
    margin-right: 45px;
 }
-nav {
+form {
    font-family: 'Quicksand', sans-serif;
    margin-top: -25px;
-   font-size: .45em;
+   font-size: .25em;
 }
 
-ol {
+/*ol {
    list-style: none;
    display: inline-block;
    padding-right: 5px;
-}
+}*/
 
-ol > ol {
+/*ol > ol {
    font-weight: 300;
-}
+}*/
 
 #logo {
    font-family: 'Poiret One', sans-serif;
+   text-align: right;
    letter-spacing: 1.5px;
    font-size: 2em;
    opacity: 0.0;
 }
+
+#quilt {
+   opacity: 0.0;
+}
+
+#qty {
+   width: 45px;
+}
+
+form {
+   width: 140px;
+   float: right;
+   margin-right: 12px;
+}
+.form-half {
+   float: right;
+   width: 50%;
+}
+
 .piece {
    width: 55px;
+   height: 95px;
+   position: absolute;
+   top: 35px;
+   left: 35px;
 }
-.rotated {
+
+.diamond {
+   mask: url(images/colors/diamond-mask.png);
+   -webkit-mask:url(images/colors/diamond-mask.png);
+}
+
+.rotated0 {
    transform: rotate(30deg);
 }
-.rotated2 {
+.rotated1 {
    transform: rotate(90deg);
 }
-.rotated3 {
+.rotated2 {
    transform: rotate(150deg);
 }
